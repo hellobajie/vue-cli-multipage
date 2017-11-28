@@ -1,6 +1,7 @@
-# webpack-vue
+# 基于vue-cli构建的多页面应用脚手架
 
 > webpack构建多页面vue应用
+> 该脚手架同时支持vux，sass，less
 
 ## Build Setup
 
