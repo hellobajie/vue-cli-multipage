@@ -3,6 +3,12 @@
 > webpack构建多页面vue应用
 > 该脚手架同时支持vux，sass，less
 
+### 开发环境地址
+> http://localhost:8080/abc.html
+
+> http://localhost:8080/main.html
+
+
 ## Build Setup
 
 ``` bash

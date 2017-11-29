@@ -51,14 +51,12 @@ var configObj = {
   var fileList = glob.sync('./src/*.js');
   var fileNameList = [];
   fileList.forEach(function (item, index) {
-      console.log(item)
       var name = item.match(/(\/)(\w+)(\.)/g)[0].substring(1, item.match(/(\/)(\w+)(\.)/g)[0].length - 1);
       fileNameList.push(name);
   })
   var obj = {};
   fileList.forEach(function (item, index) {
       var filename = fileNameList[index];
-      console.log(filename)
       configObj.entry[filename] = item;
       configObj.plugins.push(new HtmlWebpackPlugin({
           template: './src/pages/' + filename + '.html',
